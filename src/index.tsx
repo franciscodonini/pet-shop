@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/buttons/button';
+import Button from './components/buttons/button';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Button />
   </React.StrictMode>,
   document.getElementById('root')
 );

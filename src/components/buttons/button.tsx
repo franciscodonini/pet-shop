@@ -1,9 +1,15 @@
 import React from 'react';
 
+const mockedData = {
+    nome: 'Francisco',
+    endereco: 'Rua Dona Teodora',
+};
+
 export default class Button extends React.Component {
-    render() {
-        return {
-            <h1>Hello World</h1>
-        };
+    public render() {
+
+        return <h1>xico</h1>;
+
+
     }
 }
