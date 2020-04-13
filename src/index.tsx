@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from './components/buttons/button';
 import * as serviceWorker from './serviceWorker';
+import Logo from './components/logo/logo';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <Button />
+    <Logo />
   </React.StrictMode>,
   document.getElementById('root')
 );
