@@ -4,12 +4,8 @@ const mockedData = {
     nome: 'Francisco',
     endereco: 'Rua Dona Teodora',
 };
-
 export default class Button extends React.Component {
     public render() {
-
-        return <h1>xico</h1>;
-
-
+        return <div>{mockedData.nome}</div>;
     }
 }
