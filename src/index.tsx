@@ -1,5 +1,5 @@
 import * as serviceWorker from './serviceWorker';
-import Button from './components/buttons/button';
+import ButtonAdd from './components/buttons/button-add-pet';
 import Logo from './components/logo/logo';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(
   <React.StrictMode>
     <Logo />
+    <ButtonAdd />
   </React.StrictMode>,
   document.getElementById('root')
 );
