@@ -7,7 +7,6 @@ import Logo from './components/logo/logo';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Button />
     <Logo />
   </React.StrictMode>,
   document.getElementById('root')
