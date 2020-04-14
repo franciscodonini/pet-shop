@@ -5,8 +5,8 @@ import './button-add-pet.css';
 
 export default class ButtonAdd extends React.Component {
     public render() {
-        return <div id= "addPet">
-                    <button>Adicionar Pet</button>             
+        return <div>
+                    <button id= "addPet">Adicionar Pet</button>             
 
                </div>
     }
