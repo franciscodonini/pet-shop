@@ -1,0 +1,21 @@
+div.card{
+    background-color: orange;
+    width: 260px;
+    height: 160px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: block;
+}
+#horaSaida {
+    margin: 4px;
+}
+#petNome {
+    margin: 4px;
+}
+#nomeDono {
+    margin: 70px 0 4px 4px;
+}
+#contato {
+    margin-left: 4px;
+}

@@ -1,0 +1,14 @@
+div.coluns {
+    padding-top: 20px;
+    width: fit-content;
+    margin: auto;
+    background-color: grey;
+    
+}
+div.colun1 , div.colun2 , div.colun3{
+    text-align: center;
+    width: 270px;
+    margin: 0 20px;
+    float: left;
+}
+ 
