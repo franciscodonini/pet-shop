@@ -3,9 +3,8 @@ div.menu {
     width: fit-content;
     margin-top: 40px;
 }
-#spacer {
-    margin: 12px;
-}
 div.menuButton {
     float: left;
+    margin-left:  12px;
+    margin-right: 12px;
 }

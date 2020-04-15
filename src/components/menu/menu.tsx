@@ -5,14 +5,14 @@ import './menu.css';
 
 export default class Menu extends React.Component {
     public render() {
-        return <div className="menu">
-                    <div className= "menuButton">
-                        <ButtonAdd />
-                    </div>    
-                    <div  className="menuButton"id= "spacer">&nbsp;</div>
-                    <div className= "menuButton">
-                        <ButtonAgenda />
-                    </div>
-               </div>
+        return (
+            <div className="menu">
+                <div className= "menuButton">
+                    <ButtonAdd />
+                </div>   
+                <div className= "menuButton">                        <ButtonAgenda />
+                </div>
+           </div>
+        )   
     }
 }
