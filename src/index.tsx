@@ -1,13 +1,13 @@
 import * as serviceWorker from './serviceWorker';
-import Button from './components/buttons/button';
+import Menu from './components/menu/menu';
 import Logo from './components/logo/logo';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <Logo />
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );

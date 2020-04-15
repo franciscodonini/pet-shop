@@ -1,0 +1,9 @@
+div.menu {
+    margin: auto;
+    width: fit-content;
+    margin-top: 40px;
+}
+div.menuButton {
+    float: left;
+    margin: 0 12px;
+}
