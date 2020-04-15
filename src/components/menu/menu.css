@@ -1,12 +1,11 @@
 div.menu {
     margin: auto;
-    width: min-content;
+    width: fit-content;
+    margin-top: 40px;
 }
 #spacer {
-    width: 24px;
+    margin: 12px;
 }
-
-div.menu , div.menuButton {
-    width: inline;
-    display: inline-block;
+div.menuButton {
+    float: left;
 }

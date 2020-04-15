@@ -9,7 +9,7 @@ export default class Menu extends React.Component {
                     <div className= "menuButton">
                         <ButtonAdd />
                     </div>    
-                    <div id= "spacer"></div>
+                    <div  className="menuButton"id= "spacer">&nbsp;</div>
                     <div className= "menuButton">
                         <ButtonAgenda />
                     </div>
