@@ -1,0 +1,12 @@
+div.menu {
+    margin: auto;
+    width: min-content;
+}
+#spacer {
+    width: 24px;
+}
+
+div.menu , div.menuButton {
+    width: inline;
+    display: inline-block;
+}

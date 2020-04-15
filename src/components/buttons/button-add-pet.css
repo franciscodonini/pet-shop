@@ -1,7 +1,4 @@
-#addPet {
+button.addPet {
    height: 52px;
    width: 260px;
-   position: absolute;
-   left: 448px;
-   top: 246px;
 }
