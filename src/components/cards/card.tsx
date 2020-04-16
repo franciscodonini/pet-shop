@@ -11,10 +11,10 @@ export default class Card extends React.Component {
     public render() {
         return (
             <div className="card">
-                        <div id="horaSaida">Saída: {mockedData.horaSaida}</div>
-                        <div id="petNome">Pet: {mockedData.petNome}</div>
-                        <div id="nomeDono">Dono: {mockedData.nomeDono}</div>
-                        <div id="contato">Contato: {mockedData.contatoDono}</div>
+                <div className="dados">Saída: {mockedData.horaSaida}</div>
+                <div className="dados">Pet: {mockedData.petNome}</div>
+                <div className="dados">Dono: {mockedData.nomeDono}</div>
+                <div className="dados">Contato: {mockedData.contatoDono}</div>
             </div>
         )
     }
