@@ -1,6 +1,5 @@
 import * as serviceWorker from './serviceWorker';
 import Columns from './components/columns/columns';
-import Card from './components/cards/card';
 import Menu from './components/menu/menu';
 import Logo from './components/logo/logo';
 import React from 'react';
@@ -9,6 +8,8 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Logo />
+    <Menu />
     <Columns />
   </React.StrictMode>,
   document.getElementById('root')
