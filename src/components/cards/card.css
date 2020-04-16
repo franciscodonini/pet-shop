@@ -16,4 +16,9 @@ div.buttonsCard {
     height: fit-content;
     width: fit-content;
 }
-
+button img{
+    margin-top:4px;
+}
+.recebido {
+    margin-right: 4px;
+}

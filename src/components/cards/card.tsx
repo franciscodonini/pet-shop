@@ -15,7 +15,7 @@ export default class Card extends React.Component {
             <div className="card">
                 <div className="buttonsCard">
                     <button className="recebido">
-                        <img src={ImageRecebido} alt="recebido" width="20px" />
+                        <img src={ImageRecebido} alt="recebido" width="20px" />   
                     </button>
                     <button className="entregue">
                         <img src={ImageEntregue} alt="entregue" width="20px" />
