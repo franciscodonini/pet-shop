@@ -21,17 +21,17 @@ export default class Columns extends React.Component {
                     <Card />
                 </div>
                 <div className="column">
-                <div className="header">
-                        <h3>Quinta-Feira 16/04</h3>
+                    <div className="header">
+                            <h3>Quinta-Feira 16/04</h3>
+                        </div>
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />  
                     </div>
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />  
-                </div>
                 <div className="column">
                 <div className="header">
                         <h3>Sexta-Feira 17/04</h3>
