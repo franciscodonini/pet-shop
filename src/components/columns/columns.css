@@ -2,9 +2,9 @@ div.columns {
     width: fit-content;
     height: 30%;
     margin: auto;
-    overflow: auto;
-    padding:10px;
     margin-top: 40px;
+    padding:10px;
+    overflow: auto;
 }
 div.column {
     text-align: center;

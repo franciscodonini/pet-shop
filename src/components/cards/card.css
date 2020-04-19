@@ -6,7 +6,19 @@ div.card{
     text-align: left;
     padding: 18px ;
     margin-bottom: 24px;
+    overflow: auto;
 }
 div.dados {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+}
+div.buttonsCard {
+    float: right;
+    height: fit-content;
+    width: fit-content;
+}
+button img{
+    margin-top:4px;
+}
+.recebido {
+    margin-right: 4px;
 }
