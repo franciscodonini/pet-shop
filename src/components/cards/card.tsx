@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.css'
-import ImageRecebido from "../../assets/images/recebido-card.png";
 import ImageEntregue from "../../assets/images/entregue-card.png";
+import ImageRecebido from "../../assets/images/recebido-card.png";
 
 const mockedData = {
     horaSaida: "16:00",

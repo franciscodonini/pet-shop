@@ -8,7 +8,7 @@ export default class Columns extends React.Component {
             <div className="columns">
                 <div className="column">
                     <div className="header">
-                        <h3>Quarta-Feira 15/04</h3>
+                        <h3>{new Date(1994,6,30).toDateString()}</h3>
                     </div>
                     <Card />
                     <Card />
@@ -22,18 +22,18 @@ export default class Columns extends React.Component {
                 </div>
                 <div className="column">
                     <div className="header">
-                            <h3>Quinta-Feira 16/04</h3>
-                        </div>
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />  
+                        <h3>Quinta-Feira 16/04</h3>
                     </div>
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />  
+                </div>
                 <div className="column">
-                <div className="header">
+                    <div className="header">
                         <h3>Sexta-Feira 17/04</h3>
                     </div>
                     <Card />
