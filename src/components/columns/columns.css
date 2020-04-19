@@ -1,0 +1,25 @@
+div.columns {
+    width: fit-content;
+    height: 30%;
+    margin: auto;
+    margin-top: 40px;
+    padding:10px;
+    overflow: auto;
+}
+div.column {
+    text-align: center;
+    width: fit-content;
+    float: left;
+    margin: 0 12px;
+    background-color: #ededed;
+}
+div.header {
+    background-color: #C4C4C4;
+    height: 38px;
+}
+h3{
+    padding: 0;
+    margin: 0;
+    line-height: 38px;
+    font-size: 24px;
+}

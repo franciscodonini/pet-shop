@@ -2,10 +2,12 @@ div.menu {
     margin: auto;
     width: fit-content;
     margin-top: 40px;
+    overflow: auto;
 }
 div.menuButton {
     float: left;
     margin: 0 12px;
+    overflow: auto;
 }
 .button:link , a.button:visited {
     height: 40px;
