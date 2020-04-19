@@ -1,14 +1,10 @@
 import * as serviceWorker from './serviceWorker';
-import Menu from './components/menu/menu';
-import Logo from './components/logo/logo';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './app'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Logo />
-    <Menu />
-  </React.StrictMode>,
+  <App /> ,
   document.getElementById('root')
 );
 

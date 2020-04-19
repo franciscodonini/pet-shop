@@ -7,3 +7,18 @@ div.menuButton {
     float: left;
     margin: 0 12px;
 }
+.button:link , a.button:visited {
+    height: 40px;
+    width: 160px;
+    background-image: linear-gradient(#fffafa , #eee9e9);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:lightgray 1px solid;
+    overflow: auto;
+    line-height: 40px;
+ }
+ .button:active  {
+    background-image: linear-gradient(#eee9e9 ,#fffafa);
+ }
