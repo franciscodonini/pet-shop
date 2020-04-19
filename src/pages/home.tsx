@@ -1,9 +1,13 @@
 import React from 'react';
+import Columns from '../components/columns/columns'
+
 
 export default class Home extends React.Component {
     public render () {
         return (
-            <h1>HOME</h1>
+            <div className="content">
+                <Columns />
+            </div>
         )
     }
 }
